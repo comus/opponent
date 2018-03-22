@@ -4,10 +4,14 @@
     "scripts": {
         "dev": "nodemon -L ./server.js",
         "start": "node ./server.js",
+        "train": "node ./train.js",
         "eslint": "eslint --ext .js --ignore-path .gitignore ."
     },
     "dependencies": {
-        "express": "~4.16"
+        "express": "~4.16",
+        "lodash": "^4.17.5",
+        "neataptic": "~1.4.7",
+        "quickdraw.js": "~1.0.6"
     },
     "devDependencies": {
         "eslint": "~4.18",
