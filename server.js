@@ -61,7 +61,7 @@ const categories = [
   'vase',
   'violin',
   'windmill',
-  'wine bottle'
+  'wine bottle',
 ];
 
 function normalize(drawing) {
